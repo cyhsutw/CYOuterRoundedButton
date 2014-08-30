@@ -10,6 +10,8 @@
 
 @interface CYOuterRoundedButton : UIButton
 
--(id)initWithFrame:(CGRect)frame radius:(CGFloat)radius;
+@property (nonatomic, strong) NSNumber *radius;
+
+- (id)initWithFrame:(CGRect)frame radius:(CGFloat)radius;
 
 @end

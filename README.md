@@ -17,5 +17,13 @@ CYOuterRoundedButton *button = [[CYOuterRoundedButton alloc] initWithFrame:CGRec
 
 ```
 
+###Storyboard Support
+
+You may also used it in a storyboard-based project, just simply set a attribute named `radius` in your storyboard settings.
+
+![storyboard](./storyboard.png)
+
+> Thanks for Yi-Jie's suggestion.
+
 ###Note
 You may need to set the `width` of the button as `DESIRED_WIDTH + 2*RADIUS` in order to save spaces for bottom corners.
